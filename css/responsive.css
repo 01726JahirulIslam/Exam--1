@@ -1,0 +1,375 @@
+@media all and (max-width:1400px) {
+}
+@media all and (max-width:1200px) {
+    .header-logo img {
+        width: 120px;
+        height: 55px;
+        margin-top: 13px;
+        padding-left: 15px;
+    }
+    .banner-text p::before {
+        display: none;
+    }
+    .banner-text h1::after {
+        display: none;
+    }
+    .banner-text p::after {
+        display: none;
+    }
+    .about-left-img {
+        padding-left: 10px;
+    }
+    .title h4 {
+        margin: 0 10px;
+    }
+    .title h1 {
+        margin: 0 10px;
+        margin-top: 25px;
+    }
+    .portfolio-header-menu {
+        padding-left: 10px;
+    }
+    .portfolio-prodact {
+        padding: 0 10px;
+    }
+    .skills-item {
+        padding: 0 10px;
+    }
+    .education-item {
+        padding: 0 10px;
+    }
+    .education-img-right img {
+        height: 100%;
+    }
+    .employment-item-content {
+        padding: 0 10px;
+        margin-top: 25px;
+    }
+    .employment h4 {
+        padding: 18px 20px;
+    }
+    .contact-items {
+        margin-top: 25px;
+    }
+}
+
+
+
+@media all and (max-width:1180px) {
+    .about-button {
+        margin-top: 60px;
+        position: relative;
+        bottom: 35px;
+    }
+
+}
+
+.header-menu span{
+    display: none;
+}
+.mobaile-menu-check{
+    display: none;
+}
+
+
+
+@media all and (max-width:992px) {
+    .education-item {
+        display: flex;
+        flex-direction: column;
+    }
+    .education-items {
+        width: 100%;
+    }
+    .education-img-right {
+        width: 100%;
+    }
+    .education-img-right {
+        margin-top: 30px;
+        padding-right: 45px;
+    }
+    .employment h4 {
+        padding: 15px 10px;
+    }
+
+
+    .header-menu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .header-menu .mobaile-menu-check:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+        height: 0;
+    }
+    
+    .header-menu span {
+        font-size: 40px;
+        cursor: pointer;
+        color: #fff;
+        text-align: right;
+        display: block;
+        padding-right: 33px;
+        margin-top: 11px;
+    }
+    .mobaile-menu-check {
+        position: absolute;
+        right: 3%;
+        width: 60px;
+        height: 60px;
+        top: 9%;
+        display: block;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .header-menu ul li {
+        display: block;
+        background: #00000024;
+    }
+    .header-menu ul li a {
+        line-height: 50px;
+    }
+    .header-menu ul li ul {
+        left: -100%;
+        top: 0;
+    }
+    .header-menu ul {
+        margin-top: 12px;
+    }
+    .header-menu ul li ul {
+        padding-right: 72px;
+        margin-top: 10px;
+    }
+    .header-menu ul li ul li ul {
+        left: -100%;
+        padding-right: 72px;
+    }
+    
+}
+
+
+
+
+@media all and (max-width:768px) {
+    .banner-text h1 {
+        font-size: 40px;
+    }
+    .banner-text p {
+        font-size: 17px;
+    }
+    .about-item {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .about-left-img {
+        width: 100%;
+        padding-right: 10px;
+    }
+    .about-right-text {
+        width: 100%;
+    }
+    .title h1 {
+        width: 550px;
+        font-size: 38px;
+    }
+    .portfolio-prodact-img {
+        width: 49%;
+    }
+    .portfolio-header-menu ul li {
+        padding: 0px 6px;
+        font-size: 14px;
+    }
+    .skills-contact {
+        width: 49%;
+    }
+    .time-cunting-section {
+        padding: 58px;
+    }
+    .employment-item-content {
+        flex-direction: column;
+    }
+    .employment-item-text {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .employment h4 {
+        padding: 15px 30px;
+        font-size: 20px;
+    }
+}
+
+
+@media all and (max-width:576px) {
+    .title h1 {
+        width: 450px;
+        font-size: 35px;
+    }
+    .portfolio-prodact-img {
+        width: 100%;
+    }
+    .portfolio-header-menu ul {
+        display: block;
+    }
+    .portfolio-header-menu ul li {
+        padding: 0px 0px;
+        font-size: 14px;
+        line-height: 1.9;
+    }
+    .skills-contact {
+        width: 100%;
+    }
+    .cunting-text {
+        display: block;
+    }
+    .cunting-times {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .cunting-times h1 {
+        font-size: 35px;
+    }
+    .cunting-times p {
+        font-size: 15px;
+    }
+    .contact-icon-item {
+        flex-direction: column;
+    }
+    .contact-icon-1 {
+        width: 100%;
+    }
+    .contact-icon-1 span {
+        margin-bottom: 15px;
+    }
+    .contact-icon-2 span {
+        margin-bottom: 15px;
+    }
+    .contact-icon-3 span {
+        margin-bottom: 15px;
+    }
+    .contact-icon-2 {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .contact-icon-3 {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .contact-form {
+        flex-direction: column;
+    }
+    .form-left {
+        width: 100%;
+    }
+    .form-right {
+        width: 100%;
+    }
+    .footer-icon ul li {
+        font-size: 23px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        margin: 0 5px;
+    }
+    .footer-bottom p {
+        font-size: 20px;
+    }
+    .adress-name {
+        width: 50%;
+    }
+    .adress-name ul li {
+        font-size: 18px;
+    }
+    .adress-item {
+        width: 50%;
+    }
+    .adress-item ul li {
+        font-size: 18px;
+    }
+    .about-text-header p {
+        font-size: 18px;
+    }
+    .about-text-header h3 {
+        font-size: 25px;
+    }
+}
+
+
+@media all and (max-width:450px) {
+    .banner-text h1 {
+        font-size: 30px;
+    }
+    .banner-text p {
+        font-size: 15px;
+    }
+    .title h1 {
+        width: 350px;
+        font-size: 30px;
+    }
+    .portfolio-header-menu ul li {
+        font-size: 14px;
+        line-height: 1.9;
+    }
+    .time-cunting-section {
+        padding: 38px;
+    }
+    .contact-send {
+        font-size: 15px;
+    }
+    .footer-bottom p {
+        font-size: 16px;
+    }
+    .adress-name {
+        width: 50%;
+    }
+    .adress-name ul li {
+        font-size: 15px;
+    }
+    .adress-item {
+        width: 50%;
+    }
+    .adress-item ul li {
+        font-size: 15px;
+    }
+    .header-menu ul li a {
+        padding: 0 8px;
+        font-size: 13px;
+    }
+    .header-menu ul li ul {
+        padding-right: 103px;
+    }
+    .header-menu ul li ul li ul {
+        padding-right: 103px;
+    }
+    
+}
+
+
+@media all and (max-width:350px) {
+    .title h1 {
+        width: 300px;
+        font-size: 30px;
+    }
+    .about-button a {
+        font-size: 12px;
+    }
+    .time-cunting-section {
+        padding: 18px;
+    }
+    .employment h4 {
+        font-size: 15px;
+    }
+    .contact-send {
+        padding: 10px 8px;
+    }
+    .adress-name ul li {
+        font-size: 12px;
+    }
+    .adress-item ul li {
+        font-size: 12px;
+    }
+    .title h1 {
+        font-size: 27px;
+    }
+}
